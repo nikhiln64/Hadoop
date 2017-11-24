@@ -1,2 +1,2 @@
 # Hadoop
-Big Data projects and POC's
+Repository consist of Big Data projects and POC's related to BigData Hadoop echo system.
