@@ -22,7 +22,8 @@ then
 		echo "Only record count : "$recordsCount
 		if [ $tcount == $recordsCount ]
 		then
-			echo "Matched, moving to lfs landing zone"
+			echo "Matched, moving to hdfs landing zone"
+			hadoop fs -copyFromLocal $File /user/cloudera/frod_detection/landing
 		else
 			echo "File currpoted!"
 		fi
